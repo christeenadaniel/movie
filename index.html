@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <link href="movie.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container w-50 m-5 p-3">
+        <h3 class="">Movie Search App!!!</h3>
+        <form>
+            <div class="mt-5">
+              <input type="text" id="movieName" class="form-control border-bottom border-dark border-opacity-25"
+               placeholder="Enter movie name here...." aria-label="Moviename" aria-describedby="basic-addon1">
+            </div>
+            <button type="button" class="btn btn-outline-dark rounded-pill mt-3"
+                onclick="searchMovie()">Search</button>
+          </form>
+    </div>
+ 
+    <div id="showTitle"></div>
+    <div class="container w-100 row m-2" id="main">
+        <div id="picture" class="text-center col-lg-6"></div>
+        <div class="col-lg-6 text-start" id="details">
+        </div>
+    </div>
+
+    
+</body>
+<script src="./moviescript.js"></script>
+</html>
+

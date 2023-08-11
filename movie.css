@@ -1,0 +1,12 @@
+body{
+    background-image: url("./images/bg.jpeg");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+   
+}
+#main picture {
+    width: 70px; 
+    height: 40px;
+    align-items: end;
+
+}
